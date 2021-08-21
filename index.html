@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacBook-Pro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="container">
+        <div class="container mt-5">
+            <div class="row ">
+              <div class="col-5">
+               <div class="p-3   ">
+                   <img src="images/mac.png " class="img-fluid" alt=''>
+               </div>
+              </div>
+              <div class="col-7">
+                <div class="p-3 ">
+                    <h2>Customize Your Blue 24-inch imac with Apple M1 chip</h2>
+                    <p>M1 optimizes custom technologies and power efficiency for the new iMac. The system-on-a-chip design provides greater integration and works seamlessly with the most advanced operating system in the world, macOS Big Sur.</p>
+
+                    <!-- Memori -->
+                    <div class="mb-5">
+                    <h5>Memori</h5>
+                    <button id="memory8GB" class="btn-group">8GB unified memory</button>
+                    <button id="memory16GB" class="btn-group">16GB unified memory</button>
+                    </div>
+
+
+                    <!-- Storage -->
+                    <div class="mb-5">
+                    <h5>Storage</h5>
+                    <button id="storage256GB" class="btn-group">256GB SSD storage</button>
+                    <button id="storage512GB" class="btn-group">512GB SSD storage</button>
+                    <button id="storage1TB" class="btn-group">1TB SSD storage</button>
+                    </div>
+
+
+
+
+                    <!-- delivery Option -->
+                    <div class="mb-5">
+                    <h5>Choose Your delivery Option</h5>
+                    <button id="free-delivery" class="btn-group">Friday,Aug 25 Free Prime Delivery </button>
+                    <button id="Paid-delivery" class="btn-group">Friday,Aug 21 Delivery charge $20</button>
+                    </div>
+
+
+
+                    <div>
+                        <table class="table">
+                           
+                            <tbody>
+                              <tr>
+                                <th scope="row">Best Price</th>
+                                <td>$ <span id="Best-Price">1299</span></td>
+                              </tr>
+
+
+                              <tr>
+                                <th scope="row">Extra Memori cost</th>
+                                <td>$<span id="extra-memory">0</span></td> 
+                              </tr>
+
+
+                              <tr>
+                                <th scope="row">Extra Storage cost</th>
+                                <td>$<span id="extra-storage" >0</span></td> 
+                              </tr>
+
+
+                              <tr>
+                                <th>Delivery Charge</th>
+                                <td>$<span id="extra-delivery"> 0</span></td> 
+                              </tr> 
+                           
+
+                              <tr class="total">
+                                <th>Total</th>
+                                <td>$<span id="total-cost">1299</span></td> 
+                              </tr> 
+
+
+
+                            </tbody> 
+                          </table>
+
+                    </div>
+    
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+          <!-- promo-code -->
+          <p id="wrong-promo" class="text-danger d-none d-flex justify-content-end ">Wrong Promo Code!!</p>
+          <div class="promo-code d-flex justify-content-end">
+            <h5>apply promo code</h5>
+            
+
+             <input id="promo-input" type="text" class=" rounded d-flex">
+             <button id="apply-btn" class="btn btn-danger rounded px-3 ms-3">Apply</button>
+          </div>
+          <!-- promo-code  end-->
+
+          <!-- Grand-total -->
+          <hr class="mt-5">
+          <h1 id="Grand-total" class="text-center mb-5"> Total: $<span id="total-value">1299</span> </h1>
+
+    </section>
+    
+
+
+
+
+    <script src="java/mac.js"></script>
+</body>
+</html>

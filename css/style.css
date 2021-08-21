@@ -1,0 +1,26 @@
+
+.btn-group{
+    
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+.btn-group:hover{    
+    color: white;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+
+.total{
+    border-top: 3px solid black;
+}
+
+
+
